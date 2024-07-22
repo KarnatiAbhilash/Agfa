@@ -1,0 +1,85 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+body
+{
+	background: #ffffff;
+}
+.login_menu_bg
+{
+	margin: 0 auto;
+	width: 900px;
+	height: 45px;
+	margin-top: 20px;
+	background: url(../images/login_menu_bg.gif);
+	background-repeat: no-repeat;
+}
+#menu
+{
+	margin: 0 auto;
+	width: 900px;
+	height: 40px;
+}
+.nav
+{
+	margin: 0 auto;
+}
+.nav li
+{
+	list-style: none;
+	float: left;
+}
+
+.nav li a
+{
+	float: left;
+	width: 120px;
+	display: block;
+	text-align: center;
+	padding: 8px 30px 8px 30px;
+	font-family: "Verdana";
+	font-size: 12px;
+	color: #000000;
+	outline: none;
+}
+
+.navline
+{
+	background: url(../images/menu_divider_line.gif);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+.nav li a:hover, .nav li.active a
+{
+	float: left;
+	width: 120px;
+	display: block;
+	text-align: center;
+	padding: 8px 30px 8px 30px;
+	font-family: "Verdana";
+	font-size: 12px;
+	color: #FFFFFF;
+	outline: none;
+	cursor: default;
+	background: url(../images/over_menu.gif);
+	background-repeat: repeat-x;
+}
+.line
+{
+	float: left;
+	width: 1px;
+	height: 31px;
+	background: url(../images/line_menu_divider.gif);
+	background-repeat: no-repeat;
+}
+.LoginHeader
+{
+    float: left;
+	width: 1px;
+	height: 31px;
+	background:url(../Images/AgfaHeadingsmall.png);
+	background-repeat: no-repeat;
+}

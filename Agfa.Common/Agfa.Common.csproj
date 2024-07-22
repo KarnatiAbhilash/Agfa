@@ -1,0 +1,438 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DD4EA4F4-0CCC-4DA9-ACAD-23EE9A41313E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Agfa.Common</RootNamespace>
+    <AssemblyName>Agfa.Common</AssemblyName>
+    <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="itextsharp">
+      <HintPath>..\ExternalLibraries\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp.xtra">
+      <HintPath>..\ExternalLibraries\itextsharp.xtra.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.Logging, Version=5.2.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\SecondarySales\packages\Microsoft.IdentityModel.Logging.5.2.4\lib\net451\Microsoft.IdentityModel.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.Protocols, Version=5.2.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\SecondarySales\packages\Microsoft.IdentityModel.Protocols.5.2.4\lib\net451\Microsoft.IdentityModel.Protocols.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.Tokens, Version=5.2.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\SecondarySales\packages\Microsoft.IdentityModel.Tokens.5.2.4\lib\net451\Microsoft.IdentityModel.Tokens.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.Tokens.Saml, Version=5.2.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\SecondarySales\packages\Microsoft.IdentityModel.Tokens.Saml.5.2.4\lib\net451\Microsoft.IdentityModel.Tokens.Saml.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.Xml, Version=5.2.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\SecondarySales\packages\Microsoft.IdentityModel.Xml.5.2.4\lib\net451\Microsoft.IdentityModel.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\SecondarySales\packages\Newtonsoft.Json.10.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Sustainsys.Saml2, Version=2.9.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\SecondarySales\packages\Sustainsys.Saml2.2.9.2\lib\net47\Sustainsys.Saml2.dll</HintPath>
+    </Reference>
+    <Reference Include="Sustainsys.Saml2.HttpModule, Version=2.9.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\SecondarySales\packages\Sustainsys.Saml2.HttpModule.2.9.2\lib\net472\Sustainsys.Saml2.HttpModule.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.ConfigurationManager, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\SecondarySales\packages\System.Configuration.ConfigurationManager.4.4.1\lib\net461\System.Configuration.ConfigurationManager.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.DirectoryServices.AccountManagement" />
+    <Reference Include="System.DirectoryServices.Protocols" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Runtime.Caching" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Security.AccessControl, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\SecondarySales\packages\System.Security.AccessControl.4.5.0\lib\net461\System.Security.AccessControl.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Xml, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\SecondarySales\packages\System.Security.Cryptography.Xml.4.5.0\lib\net461\System.Security.Cryptography.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Permissions, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\SecondarySales\packages\System.Security.Permissions.4.5.0\lib\net461\System.Security.Permissions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Principal.Windows, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\SecondarySales\packages\System.Security.Principal.Windows.4.5.0\lib\net461\System.Security.Principal.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\ClientFileData\ClientBinaryFile.cs" />
+    <Compile Include="Classes\ClientFileData\ClientFileData.cs" />
+    <Compile Include="Classes\ClientFileData\ClientFileStream.cs" />
+    <Compile Include="Classes\ClientFileData\ClientTextFile.cs" />
+    <Compile Include="Classes\ClientFileData\IClientFileData.cs" />
+    <Compile Include="Classes\ExcelReportGenerator\DataColumnHeader.cs" />
+    <Compile Include="Classes\ExcelReportGenerator\Enumerations.cs" />
+    <Compile Include="Classes\ExcelReportGenerator\ExcelReport.cs" />
+    <Compile Include="Classes\ExcelReportGenerator\ExcelReportConfiguration.cs" />
+    <Compile Include="Classes\ExcelReportGenerator\ExcelReportExtensionMethods.cs" />
+    <Compile Include="Classes\ExcelReportGenerator\ReportCriterion.cs" />
+    <Compile Include="Classes\ExcelReportGenerator\ReportFooter.cs" />
+    <Compile Include="Classes\ExcelReportGenerator\ReportHeader.cs" />
+    <Compile Include="Classes\MIMEAssistant.cs" />
+    <Compile Include="EPP\ConditionalFormatting\CF Implementation.cs" />
+    <Compile Include="EPP\ConditionalFormatting\Contracts\IExcelConditionalFormattingAverageGroup.cs" />
+    <Compile Include="EPP\ConditionalFormatting\Contracts\IExcelConditionalFormattingBeginsWith.cs" />
+    <Compile Include="EPP\ConditionalFormatting\Contracts\IExcelConditionalFormattingBetween.cs" />
+    <Compile Include="EPP\ConditionalFormatting\Contracts\IExcelConditionalFormattingColorScaleGroup.cs" />
+    <Compile Include="EPP\ConditionalFormatting\Contracts\IExcelConditionalFormattingContainsBlanks.cs" />
+    <Compile Include="EPP\ConditionalFormatting\Contracts\IExcelConditionalFormattingContainsErrors.cs" />
+    <Compile Include="EPP\ConditionalFormatting\Contracts\IExcelConditionalFormattingContainsText.cs" />
+    <Compile Include="EPP\ConditionalFormatting\Contracts\IExcelConditionalFormattingDataBarGroup.cs" />
+    <Compile Include="EPP\ConditionalFormatting\Contracts\IExcelConditionalFormattingDuplicateValues.cs" />
+    <Compile Include="EPP\ConditionalFormatting\Contracts\IExcelConditionalFormattingEndsWith.cs" />
+    <Compile Include="EPP\ConditionalFormatting\Contracts\IExcelConditionalFormattingEqual.cs" />
+    <Compile Include="EPP\ConditionalFormatting\Contracts\IExcelConditionalFormattingExpression.cs" />
+    <Compile Include="EPP\ConditionalFormatting\Contracts\IExcelConditionalFormattingFiveIconSet.cs" />
+    <Compile Include="EPP\ConditionalFormatting\Contracts\IExcelConditionalFormattingFourIconSet.cs" />
+    <Compile Include="EPP\ConditionalFormatting\Contracts\IExcelConditionalFormattingGreaterThan.cs" />
+    <Compile Include="EPP\ConditionalFormatting\Contracts\IExcelConditionalFormattingGreaterThanOrEqual.cs" />
+    <Compile Include="EPP\ConditionalFormatting\Contracts\IExcelConditionalFormattingIconSetGroup.cs" />
+    <Compile Include="EPP\ConditionalFormatting\Contracts\IExcelConditionalFormattingLessThan.cs" />
+    <Compile Include="EPP\ConditionalFormatting\Contracts\IExcelConditionalFormattingLessThanOrEqual.cs" />
+    <Compile Include="EPP\ConditionalFormatting\Contracts\IExcelConditionalFormattingNotBetween.cs" />
+    <Compile Include="EPP\ConditionalFormatting\Contracts\IExcelConditionalFormattingNotContainsBlanks.cs" />
+    <Compile Include="EPP\ConditionalFormatting\Contracts\IExcelConditionalFormattingNotContainsErrors.cs" />
+    <Compile Include="EPP\ConditionalFormatting\Contracts\IExcelConditionalFormattingNotContainsText.cs" />
+    <Compile Include="EPP\ConditionalFormatting\Contracts\IExcelConditionalFormattingNotEqual.cs" />
+    <Compile Include="EPP\ConditionalFormatting\Contracts\IExcelConditionalFormattingRule.cs" />
+    <Compile Include="EPP\ConditionalFormatting\Contracts\IExcelConditionalFormattingStdDevGroup.cs" />
+    <Compile Include="EPP\ConditionalFormatting\Contracts\IExcelConditionalFormattingThreeColorScale.cs" />
+    <Compile Include="EPP\ConditionalFormatting\Contracts\IExcelConditionalFormattingThreeIconSet.cs" />
+    <Compile Include="EPP\ConditionalFormatting\Contracts\IExcelConditionalFormattingTimePeriodGroup.cs" />
+    <Compile Include="EPP\ConditionalFormatting\Contracts\IExcelConditionalFormattingTopBottomGroup.cs" />
+    <Compile Include="EPP\ConditionalFormatting\Contracts\IExcelConditionalFormattingTwoColorScale.cs" />
+    <Compile Include="EPP\ConditionalFormatting\Contracts\IExcelConditionalFormattingUniqueValues.cs" />
+    <Compile Include="EPP\ConditionalFormatting\Contracts\IExcelConditionalFormattingWithFormula.cs" />
+    <Compile Include="EPP\ConditionalFormatting\Contracts\IExcelConditionalFormattingWithFormula2.cs" />
+    <Compile Include="EPP\ConditionalFormatting\Contracts\IExcelConditionalFormattingWithRank.cs" />
+    <Compile Include="EPP\ConditionalFormatting\Contracts\IExcelConditionalFormattingWithReverse.cs" />
+    <Compile Include="EPP\ConditionalFormatting\Contracts\IExcelConditionalFormattingWithShowValue.cs" />
+    <Compile Include="EPP\ConditionalFormatting\Contracts\IExcelConditionalFormattingWithStdDev.cs" />
+    <Compile Include="EPP\ConditionalFormatting\Contracts\IExcelConditionalFormattingWithText.cs" />
+    <Compile Include="EPP\ConditionalFormatting\Contracts\IRangeConditionalFormatting.cs" />
+    <Compile Include="EPP\ConditionalFormatting\ExcelConditionalFormattingCollection.cs" />
+    <Compile Include="EPP\ConditionalFormatting\ExcelConditionalFormattingColorScaleValue.cs" />
+    <Compile Include="EPP\ConditionalFormatting\ExcelConditionalFormattingConstants.cs" />
+    <Compile Include="EPP\ConditionalFormatting\ExcelConditionalFormattingEnums.cs" />
+    <Compile Include="EPP\ConditionalFormatting\ExcelConditionalFormattingHelper.cs" />
+    <Compile Include="EPP\ConditionalFormatting\ExcelConditionalFormattingIconDatabarValue.cs" />
+    <Compile Include="EPP\ConditionalFormatting\ExcelConditionalFormattingOperatorType.cs" />
+    <Compile Include="EPP\ConditionalFormatting\ExcelConditionalFormattingRuleFactory.cs" />
+    <Compile Include="EPP\ConditionalFormatting\ExcelConditionalFormattingRuleType.cs" />
+    <Compile Include="EPP\ConditionalFormatting\ExcelConditionalFormattingTimePeriodType.cs" />
+    <Compile Include="EPP\ConditionalFormatting\ExcelConditionalFormattingValueObjectType.cs" />
+    <Compile Include="EPP\ConditionalFormatting\RangeConditionalFormatting.cs" />
+    <Compile Include="EPP\ConditionalFormatting\Rules\ExcelConditionalFormattingAboveAverage.cs" />
+    <Compile Include="EPP\ConditionalFormatting\Rules\ExcelConditionalFormattingAboveOrEqualAverage.cs" />
+    <Compile Include="EPP\ConditionalFormatting\Rules\ExcelConditionalFormattingAboveStdDev.cs" />
+    <Compile Include="EPP\ConditionalFormatting\Rules\ExcelConditionalFormattingAverageGroup.cs" />
+    <Compile Include="EPP\ConditionalFormatting\Rules\ExcelConditionalFormattingBeginsWith.cs" />
+    <Compile Include="EPP\ConditionalFormatting\Rules\ExcelConditionalFormattingBelowAverage.cs" />
+    <Compile Include="EPP\ConditionalFormatting\Rules\ExcelConditionalFormattingBelowOrEqualAverage.cs" />
+    <Compile Include="EPP\ConditionalFormatting\Rules\ExcelConditionalFormattingBelowStdDev.cs" />
+    <Compile Include="EPP\ConditionalFormatting\Rules\ExcelConditionalFormattingBetween.cs" />
+    <Compile Include="EPP\ConditionalFormatting\Rules\ExcelConditionalFormattingBottom.cs" />
+    <Compile Include="EPP\ConditionalFormatting\Rules\ExcelConditionalFormattingBottomPercent.cs" />
+    <Compile Include="EPP\ConditionalFormatting\Rules\ExcelConditionalFormattingContainsBlanks.cs" />
+    <Compile Include="EPP\ConditionalFormatting\Rules\ExcelConditionalFormattingContainsErrors.cs" />
+    <Compile Include="EPP\ConditionalFormatting\Rules\ExcelConditionalFormattingContainsText.cs" />
+    <Compile Include="EPP\ConditionalFormatting\Rules\ExcelConditionalFormattingDataBar.cs" />
+    <Compile Include="EPP\ConditionalFormatting\Rules\ExcelConditionalFormattingDuplicateValues.cs" />
+    <Compile Include="EPP\ConditionalFormatting\Rules\ExcelConditionalFormattingEndsWith.cs" />
+    <Compile Include="EPP\ConditionalFormatting\Rules\ExcelConditionalFormattingEqual.cs" />
+    <Compile Include="EPP\ConditionalFormatting\Rules\ExcelConditionalFormattingExpression.cs" />
+    <Compile Include="EPP\ConditionalFormatting\Rules\ExcelConditionalFormattingFiveIconSet.cs" />
+    <Compile Include="EPP\ConditionalFormatting\Rules\ExcelConditionalFormattingFourIconSet.cs" />
+    <Compile Include="EPP\ConditionalFormatting\Rules\ExcelConditionalFormattingGreaterThan.cs" />
+    <Compile Include="EPP\ConditionalFormatting\Rules\ExcelConditionalFormattingGreaterThanOrEqual.cs" />
+    <Compile Include="EPP\ConditionalFormatting\Rules\ExcelConditionalFormattingLast7Days.cs" />
+    <Compile Include="EPP\ConditionalFormatting\Rules\ExcelConditionalFormattingLastMonth.cs" />
+    <Compile Include="EPP\ConditionalFormatting\Rules\ExcelConditionalFormattingLastWeek.cs" />
+    <Compile Include="EPP\ConditionalFormatting\Rules\ExcelConditionalFormattingLessThan.cs" />
+    <Compile Include="EPP\ConditionalFormatting\Rules\ExcelConditionalFormattingLessThanOrEqual.cs" />
+    <Compile Include="EPP\ConditionalFormatting\Rules\ExcelConditionalFormattingNextMonth.cs" />
+    <Compile Include="EPP\ConditionalFormatting\Rules\ExcelConditionalFormattingNextWeek.cs" />
+    <Compile Include="EPP\ConditionalFormatting\Rules\ExcelConditionalFormattingNotBetween.cs" />
+    <Compile Include="EPP\ConditionalFormatting\Rules\ExcelConditionalFormattingNotContainsBlanks.cs" />
+    <Compile Include="EPP\ConditionalFormatting\Rules\ExcelConditionalFormattingNotContainsErrors.cs" />
+    <Compile Include="EPP\ConditionalFormatting\Rules\ExcelConditionalFormattingNotContainsText.cs" />
+    <Compile Include="EPP\ConditionalFormatting\Rules\ExcelConditionalFormattingNotEqual.cs" />
+    <Compile Include="EPP\ConditionalFormatting\Rules\ExcelConditionalFormattingRule.cs" />
+    <Compile Include="EPP\ConditionalFormatting\Rules\ExcelConditionalFormattingThisMonth.cs" />
+    <Compile Include="EPP\ConditionalFormatting\Rules\ExcelConditionalFormattingThisWeek.cs" />
+    <Compile Include="EPP\ConditionalFormatting\Rules\ExcelConditionalFormattingThreeColorScale.cs" />
+    <Compile Include="EPP\ConditionalFormatting\Rules\ExcelConditionalFormattingThreeIconSet.cs" />
+    <Compile Include="EPP\ConditionalFormatting\Rules\ExcelConditionalFormattingTimePeriodGroup.cs" />
+    <Compile Include="EPP\ConditionalFormatting\Rules\ExcelConditionalFormattingToday.cs" />
+    <Compile Include="EPP\ConditionalFormatting\Rules\ExcelConditionalFormattingTomorrow.cs" />
+    <Compile Include="EPP\ConditionalFormatting\Rules\ExcelConditionalFormattingTop.cs" />
+    <Compile Include="EPP\ConditionalFormatting\Rules\ExcelConditionalFormattingTopPercent.cs" />
+    <Compile Include="EPP\ConditionalFormatting\Rules\ExcelConditionalFormattingTwoColorScale.cs" />
+    <Compile Include="EPP\ConditionalFormatting\Rules\ExcelConditionalFormattingUniqueValues.cs" />
+    <Compile Include="EPP\ConditionalFormatting\Rules\ExcelConditionalFormattingYesterday.cs" />
+    <Compile Include="EPP\DataValidation\Contracts\IExcelDataValidation.cs" />
+    <Compile Include="EPP\DataValidation\Contracts\IExcelDataValidationCustom.cs" />
+    <Compile Include="EPP\DataValidation\Contracts\IExcelDataValidationDateTime.cs" />
+    <Compile Include="EPP\DataValidation\Contracts\IExcelDataValidationDecimal.cs" />
+    <Compile Include="EPP\DataValidation\Contracts\IExcelDataValidationInt.cs" />
+    <Compile Include="EPP\DataValidation\Contracts\IExcelDataValidationList.cs" />
+    <Compile Include="EPP\DataValidation\Contracts\IExcelDataValidationTime.cs" />
+    <Compile Include="EPP\DataValidation\Contracts\IExcelDataValidationWithFormula.cs" />
+    <Compile Include="EPP\DataValidation\Contracts\IExcelDataValidationWithFormula2.cs" />
+    <Compile Include="EPP\DataValidation\Contracts\IExcelDataValidationWithOperator.cs" />
+    <Compile Include="EPP\DataValidation\ExcelDataValidation.cs" />
+    <Compile Include="EPP\DataValidation\ExcelDataValidationCollection.cs" />
+    <Compile Include="EPP\DataValidation\ExcelDataValidationCustom.cs" />
+    <Compile Include="EPP\DataValidation\ExcelDataValidationDateTime.cs" />
+    <Compile Include="EPP\DataValidation\ExcelDataValidationDecimal.cs" />
+    <Compile Include="EPP\DataValidation\ExcelDataValidationFactory.cs" />
+    <Compile Include="EPP\DataValidation\ExcelDataValidationInt.cs" />
+    <Compile Include="EPP\DataValidation\ExcelDataValidationList.cs" />
+    <Compile Include="EPP\DataValidation\ExcelDataValidationOperator.cs" />
+    <Compile Include="EPP\DataValidation\ExcelDataValidationTime.cs" />
+    <Compile Include="EPP\DataValidation\ExcelDataValidationType.cs" />
+    <Compile Include="EPP\DataValidation\ExcelDataValidationWarningStyle.cs" />
+    <Compile Include="EPP\DataValidation\ExcelDataValidationWithFormula.cs" />
+    <Compile Include="EPP\DataValidation\ExcelDataValidationWithFormula2.cs" />
+    <Compile Include="EPP\DataValidation\ExcelTime.cs" />
+    <Compile Include="EPP\DataValidation\Formulas\Contracts\IExcelDataValidationFormula.cs" />
+    <Compile Include="EPP\DataValidation\Formulas\Contracts\IExcelDataValidationFormulaDateTime.cs" />
+    <Compile Include="EPP\DataValidation\Formulas\Contracts\IExcelDataValidationFormulaDecimal.cs" />
+    <Compile Include="EPP\DataValidation\Formulas\Contracts\IExcelDataValidationFormulaInt.cs" />
+    <Compile Include="EPP\DataValidation\Formulas\Contracts\IExcelDataValidationFormulaList.cs" />
+    <Compile Include="EPP\DataValidation\Formulas\Contracts\IExcelDataValidationFormulaTime.cs" />
+    <Compile Include="EPP\DataValidation\Formulas\Contracts\IExcelDataValidationFormulaWithValue.cs" />
+    <Compile Include="EPP\DataValidation\Formulas\ExcelDataValidationFormula.cs" />
+    <Compile Include="EPP\DataValidation\Formulas\ExcelDataValidationFormulaCustom.cs" />
+    <Compile Include="EPP\DataValidation\Formulas\ExcelDataValidationFormulaDateTime.cs" />
+    <Compile Include="EPP\DataValidation\Formulas\ExcelDataValidationFormulaDecimal.cs" />
+    <Compile Include="EPP\DataValidation\Formulas\ExcelDataValidationFormulaInt.cs" />
+    <Compile Include="EPP\DataValidation\Formulas\ExcelDataValidationFormulaList.cs" />
+    <Compile Include="EPP\DataValidation\Formulas\ExcelDataValidationFormulaTime.cs" />
+    <Compile Include="EPP\DataValidation\Formulas\ExcelDataValidationFormulaValue.cs" />
+    <Compile Include="EPP\DataValidation\IRangeDataValidation.cs" />
+    <Compile Include="EPP\DataValidation\RangeDataValidation.cs" />
+    <Compile Include="EPP\Drawing\Chart\ExcelBarChart.cs" />
+    <Compile Include="EPP\Drawing\Chart\ExcelChart.cs" />
+    <Compile Include="EPP\Drawing\Chart\ExcelChartAxis.cs" />
+    <Compile Include="EPP\Drawing\Chart\ExcelChartCollection.cs" />
+    <Compile Include="EPP\Drawing\Chart\ExcelChartDataLabel.cs" />
+    <Compile Include="EPP\Drawing\Chart\ExcelChartLegend.cs" />
+    <Compile Include="EPP\Drawing\Chart\ExcelChartPlotArea.cs" />
+    <Compile Include="EPP\Drawing\Chart\ExcelChartSerie.cs" />
+    <Compile Include="EPP\Drawing\Chart\ExcelChartSerieDataLabel.cs" />
+    <Compile Include="EPP\Drawing\Chart\ExcelChartSeries.cs" />
+    <Compile Include="EPP\Drawing\Chart\ExcelChartTitle.cs" />
+    <Compile Include="EPP\Drawing\Chart\ExcelChartTrendline.cs" />
+    <Compile Include="EPP\Drawing\Chart\ExcelDoughnutChart.cs" />
+    <Compile Include="EPP\Drawing\Chart\ExcelLineChart.cs" />
+    <Compile Include="EPP\Drawing\Chart\ExcelLineChartSerie.cs" />
+    <Compile Include="EPP\Drawing\Chart\ExcelOfPieChart.cs" />
+    <Compile Include="EPP\Drawing\Chart\ExcelPieChart.cs" />
+    <Compile Include="EPP\Drawing\Chart\ExcelPieChartSerie.cs" />
+    <Compile Include="EPP\Drawing\Chart\ExcelScatterChart.cs" />
+    <Compile Include="EPP\Drawing\Chart\ExcelScatterChartSerie.cs" />
+    <Compile Include="EPP\Drawing\ExcelDrawingBase.cs" />
+    <Compile Include="EPP\Drawing\ExcelDrawingBorder.cs" />
+    <Compile Include="EPP\Drawing\ExcelDrawingFill.cs" />
+    <Compile Include="EPP\Drawing\ExcelDrawings.cs" />
+    <Compile Include="EPP\Drawing\ExcelPicture.cs" />
+    <Compile Include="EPP\Drawing\ExcelShape.cs" />
+    <Compile Include="EPP\Drawing\ExcelView3D.cs" />
+    <Compile Include="EPP\Drawing\Vml\ExcelVmlDrawingBase.cs" />
+    <Compile Include="EPP\Drawing\Vml\ExcelVmlDrawingBaseCollection.cs" />
+    <Compile Include="EPP\Drawing\Vml\ExcelVmlDrawingComment.cs" />
+    <Compile Include="EPP\Drawing\Vml\ExcelVmlDrawingCommentCollection.cs" />
+    <Compile Include="EPP\Drawing\Vml\ExcelVmlDrawingPicture.cs" />
+    <Compile Include="EPP\Drawing\Vml\ExcelVmlDrawingPictureCollection.cs" />
+    <Compile Include="EPP\Drawing\Vml\ExcelVmlDrawingPosition.cs" />
+    <Compile Include="EPP\ExcelAddress.cs" />
+    <Compile Include="EPP\ExcelBackgroundImage.cs" />
+    <Compile Include="EPP\ExcelCell.cs" />
+    <Compile Include="EPP\ExcelCellAddress.cs" />
+    <Compile Include="EPP\ExcelCellBase.cs" />
+    <Compile Include="EPP\ExcelColumn.cs" />
+    <Compile Include="EPP\ExcelComment.cs" />
+    <Compile Include="EPP\ExcelCommentCollection.cs" />
+    <Compile Include="EPP\ExcelEncryption.cs" />
+    <Compile Include="EPP\ExcelHeaderFooter.cs" />
+    <Compile Include="EPP\ExcelHyperLink.cs" />
+    <Compile Include="EPP\ExcelNamedRange.cs" />
+    <Compile Include="EPP\ExcelNamedRangeCollection.cs" />
+    <Compile Include="EPP\ExcelPackage.cs" />
+    <Compile Include="EPP\ExcelPrinterSettings.cs" />
+    <Compile Include="EPP\ExcelProtectedRange.cs" />
+    <Compile Include="EPP\ExcelProtectedRangeCollection.cs" />
+    <Compile Include="EPP\ExcelProtection.cs" />
+    <Compile Include="EPP\ExcelRange.cs" />
+    <Compile Include="EPP\ExcelRangeBase.cs" />
+    <Compile Include="EPP\ExcelRow.cs" />
+    <Compile Include="EPP\ExcelSheetProtection.cs" />
+    <Compile Include="EPP\ExcelStyleCollection.cs" />
+    <Compile Include="EPP\ExcelStyles.cs" />
+    <Compile Include="EPP\ExcelTextFormat.cs" />
+    <Compile Include="EPP\ExcelWorkbook.cs" />
+    <Compile Include="EPP\ExcelWorkbookView.cs" />
+    <Compile Include="EPP\ExcelWorksheet.cs" />
+    <Compile Include="EPP\ExcelWorksheets.cs" />
+    <Compile Include="EPP\ExcelWorksheetView.cs" />
+    <Compile Include="EPP\IRangeID.cs" />
+    <Compile Include="EPP\OfficeProperties.cs" />
+    <Compile Include="EPP\RangeCollection.cs" />
+    <Compile Include="EPP\Style\Dxf\DxfStyleBase.cs" />
+    <Compile Include="EPP\Style\Dxf\ExcelDxfBorder.cs" />
+    <Compile Include="EPP\Style\Dxf\ExcelDxfBorderItem.cs" />
+    <Compile Include="EPP\Style\Dxf\ExcelDxfColor.cs" />
+    <Compile Include="EPP\Style\Dxf\ExcelDxfFill.cs" />
+    <Compile Include="EPP\Style\Dxf\ExcelDxfFontBase.cs" />
+    <Compile Include="EPP\Style\Dxf\ExcelDxfNumberFormat.cs" />
+    <Compile Include="EPP\Style\Dxf\ExcelDxfStyle.cs" />
+    <Compile Include="EPP\Style\ExcelBorder.cs" />
+    <Compile Include="EPP\Style\ExcelBorderItem.cs" />
+    <Compile Include="EPP\Style\ExcelColor.cs" />
+    <Compile Include="EPP\Style\ExcelFill.cs" />
+    <Compile Include="EPP\Style\ExcelFont.cs" />
+    <Compile Include="EPP\Style\ExcelGradientFill.cs" />
+    <Compile Include="EPP\Style\ExcelNumberFormat.cs" />
+    <Compile Include="EPP\Style\ExcelParagraph.cs" />
+    <Compile Include="EPP\Style\ExcelParagraphCollection.cs" />
+    <Compile Include="EPP\Style\ExcelRichText.cs" />
+    <Compile Include="EPP\Style\ExcelRichTextCollection.cs" />
+    <Compile Include="EPP\Style\ExcelStyle.cs" />
+    <Compile Include="EPP\Style\ExcelTextFont.cs" />
+    <Compile Include="EPP\Style\IStyle.cs" />
+    <Compile Include="EPP\Style\StyleBase.cs" />
+    <Compile Include="EPP\Style\StyleChangeEventArgs.cs" />
+    <Compile Include="EPP\Style\XmlAccess\ExcelBorderItemXml.cs" />
+    <Compile Include="EPP\Style\XmlAccess\ExcelBorderXml.cs" />
+    <Compile Include="EPP\Style\XmlAccess\ExcelColorXml.cs" />
+    <Compile Include="EPP\Style\XmlAccess\ExcelFillXml.cs" />
+    <Compile Include="EPP\Style\XmlAccess\ExcelFontXml.cs" />
+    <Compile Include="EPP\Style\XmlAccess\ExcelGradientFillXml.cs" />
+    <Compile Include="EPP\Style\XmlAccess\ExcelNamedStyleXml.cs" />
+    <Compile Include="EPP\Style\XmlAccess\ExcelNumberFormatXml.cs" />
+    <Compile Include="EPP\Style\XmlAccess\ExcelXfsXml.cs" />
+    <Compile Include="EPP\Style\XmlAccess\StyleXmlHelper.cs" />
+    <Compile Include="EPP\Table\ExcelTable.cs" />
+    <Compile Include="EPP\Table\ExcelTableCollection.cs" />
+    <Compile Include="EPP\Table\ExcelTableColumn.cs" />
+    <Compile Include="EPP\Table\ExcelTableColumnCollection.cs" />
+    <Compile Include="EPP\Table\PivotTable\ExcelPivotCacheDefinition.cs" />
+    <Compile Include="EPP\Table\PivotTable\ExcelPivotTable.cs" />
+    <Compile Include="EPP\Table\PivotTable\ExcelPivotTableCollection.cs" />
+    <Compile Include="EPP\Table\PivotTable\ExcelPivotTableDataField.cs" />
+    <Compile Include="EPP\Table\PivotTable\ExcelPivotTableField.cs" />
+    <Compile Include="EPP\Table\PivotTable\ExcelPivotTableFieldCollection.cs" />
+    <Compile Include="EPP\Table\PivotTable\ExcelPivotTableFieldGroup.cs" />
+    <Compile Include="EPP\Table\PivotTable\ExcelPivotTableFieldItem.cs" />
+    <Compile Include="EPP\Table\PivotTable\ExcelPivotTablePageFieldSettings.cs" />
+    <Compile Include="EPP\Utils\AddressUtility.cs" />
+    <Compile Include="EPP\Utils\Argument.cs" />
+    <Compile Include="EPP\Utils\ArgumentExtensions.cs" />
+    <Compile Include="EPP\Utils\CompoundDocument.cs" />
+    <Compile Include="EPP\Utils\EncryptedPackageHandler.cs" />
+    <Compile Include="EPP\Utils\IArgument.cs" />
+    <Compile Include="EPP\Utils\IExcelCell.cs" />
+    <Compile Include="EPP\Utils\IValidationResult.cs" />
+    <Compile Include="EPP\Utils\Require.cs" />
+    <Compile Include="EPP\Utils\SqRefUtility.cs" />
+    <Compile Include="EPP\Utils\ValidationResult.cs" />
+    <Compile Include="EPP\VBA\ExcelVbaModule.cs" />
+    <Compile Include="EPP\VBA\ExcelVbaModuleAttribute.cs" />
+    <Compile Include="EPP\VBA\ExcelVBAModuleCollection.cs" />
+    <Compile Include="EPP\VBA\ExcelVBAProject.cs" />
+    <Compile Include="EPP\VBA\ExcelVbaProtection.cs" />
+    <Compile Include="EPP\VBA\ExcelVBAReference.cs" />
+    <Compile Include="EPP\VBA\ExcelVBASignature.cs" />
+    <Compile Include="EPP\XmlHelper.cs" />
+    <Compile Include="EPP\XmlHelperFactory.cs" />
+    <Compile Include="ExtensionMethods\ByteExtensions.cs" />
+    <Compile Include="ExtensionMethods\CollectionsExtensions.cs" />
+    <Compile Include="ExtensionMethods\DataTableExtensions.cs" />
+    <Compile Include="ExtensionMethods\IEnumarable.cs" />
+    <Compile Include="ExtensionMethods\IEnumerableExtensions.cs" />
+    <Compile Include="ExtensionMethods\ObjectExtensions.cs" />
+    <Compile Include="ExtensionMethods\StringExtensions.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

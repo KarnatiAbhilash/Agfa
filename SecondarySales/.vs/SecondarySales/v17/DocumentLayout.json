@@ -1,0 +1,102 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\bhumika.s\\Desktop\\Main_Source\\SecondarySales\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{12013387-2FEA-449A-BF89-49DE223B31EE}|C:\\Users\\bhumika.s\\Desktop\\Main_Source\\SecondarySales|C:\\Users\\bhumika.s\\Desktop\\Main_Source\\SecondarySales\\loginpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{12013387-2FEA-449A-BF89-49DE223B31EE}|C:\\Users\\bhumika.s\\Desktop\\Main_Source\\SecondarySales|solutionrelative:loginpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12013387-2FEA-449A-BF89-49DE223B31EE}|C:\\Users\\bhumika.s\\Desktop\\Main_Source\\SecondarySales|c:\\users\\bhumika.s\\desktop\\main_source\\secondarysales\\transactions\\issueaddedit.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12013387-2FEA-449A-BF89-49DE223B31EE}|C:\\Users\\bhumika.s\\Desktop\\Main_Source\\SecondarySales|solutionrelative:transactions\\issueaddedit.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12013387-2FEA-449A-BF89-49DE223B31EE}|C:\\Users\\bhumika.s\\Desktop\\Main_Source\\SecondarySales|C:\\Users\\bhumika.s\\Desktop\\Main_Source\\SecondarySales\\masters\\customergroupmasteraddedit.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12013387-2FEA-449A-BF89-49DE223B31EE}|C:\\Users\\bhumika.s\\Desktop\\Main_Source\\SecondarySales|solutionrelative:masters\\customergroupmasteraddedit.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12013387-2FEA-449A-BF89-49DE223B31EE}|C:\\Users\\bhumika.s\\Desktop\\Main_Source\\SecondarySales|C:\\Users\\bhumika.s\\Desktop\\Main_Source\\SecondarySales\\masters\\customeritemprice.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{12013387-2FEA-449A-BF89-49DE223B31EE}|C:\\Users\\bhumika.s\\Desktop\\Main_Source\\SecondarySales|solutionrelative:masters\\customeritemprice.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12013387-2FEA-449A-BF89-49DE223B31EE}|C:\\Users\\bhumika.s\\Desktop\\Main_Source\\SecondarySales|C:\\Users\\bhumika.s\\Desktop\\Main_Source\\SecondarySales\\homemenu.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}",
+      "RelativeMoniker": "D:0:0:{12013387-2FEA-449A-BF89-49DE223B31EE}|C:\\Users\\bhumika.s\\Desktop\\Main_Source\\SecondarySales|solutionrelative:homemenu.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CustomerGroupMasterAddEdit.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\bhumika.s\\Desktop\\Main_Source\\SecondarySales\\Masters\\CustomerGroupMasterAddEdit.aspx.cs",
+              "RelativeDocumentMoniker": "Masters\\CustomerGroupMasterAddEdit.aspx.cs",
+              "ToolTip": "C:\\Users\\bhumika.s\\Desktop\\Main_Source\\SecondarySales\\Masters\\CustomerGroupMasterAddEdit.aspx.cs",
+              "RelativeToolTip": "Masters\\CustomerGroupMasterAddEdit.aspx.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAABUAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T07:27:21.409Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IssueAddEdit.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\bhumika.s\\Desktop\\Main_Source\\SecondarySales\\Transactions\\IssueAddEdit.aspx.cs",
+              "RelativeDocumentMoniker": "Transactions\\IssueAddEdit.aspx.cs",
+              "ToolTip": "C:\\Users\\bhumika.s\\Desktop\\Main_Source\\SecondarySales\\Transactions\\IssueAddEdit.aspx.cs",
+              "RelativeToolTip": "Transactions\\IssueAddEdit.aspx.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAqwDAAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T04:35:39.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginPage.aspx",
+              "DocumentMoniker": "C:\\Users\\bhumika.s\\Desktop\\Main_Source\\SecondarySales\\LoginPage.aspx",
+              "RelativeDocumentMoniker": "LoginPage.aspx",
+              "ToolTip": "C:\\Users\\bhumika.s\\Desktop\\Main_Source\\SecondarySales\\LoginPage.aspx",
+              "RelativeToolTip": "LoginPage.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-03-11T11:58:32.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeMenu.ascx",
+              "DocumentMoniker": "C:\\Users\\bhumika.s\\Desktop\\Main_Source\\SecondarySales\\HomeMenu.ascx",
+              "RelativeDocumentMoniker": "HomeMenu.ascx",
+              "ToolTip": "C:\\Users\\bhumika.s\\Desktop\\Main_Source\\SecondarySales\\HomeMenu.ascx",
+              "RelativeToolTip": "HomeMenu.ascx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
+              "WhenOpened": "2024-04-15T05:11:41.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CustomerItemPrice.aspx",
+              "DocumentMoniker": "C:\\Users\\bhumika.s\\Desktop\\Main_Source\\SecondarySales\\Masters\\CustomerItemPrice.aspx",
+              "RelativeDocumentMoniker": "Masters\\CustomerItemPrice.aspx",
+              "ToolTip": "C:\\Users\\bhumika.s\\Desktop\\Main_Source\\SecondarySales\\Masters\\CustomerItemPrice.aspx",
+              "RelativeToolTip": "Masters\\CustomerItemPrice.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-03-18T05:03:05.553Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

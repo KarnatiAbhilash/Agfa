@@ -1,0 +1,5 @@
+SCC = This is a Source Code Control file
+
+[BusinessClass.csproj]
+SCC_Aux_Path = "\\vss\CORALE\SecondarySalesSystemVSS"
+SCC_Project_Name = "$/SecondarySales/BusinessLayer/BusinessClass", DAAAAAAA

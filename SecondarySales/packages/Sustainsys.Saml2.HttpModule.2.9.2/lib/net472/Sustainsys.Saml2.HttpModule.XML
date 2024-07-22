@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Sustainsys.Saml2.HttpModule</name>
+    </assembly>
+    <members>
+        <member name="T:Sustainsys.Saml2.HttpModule.CommandResultHttpExtensions">
+            <summary>
+            Extension methods to CommandResult to update a HttpResponseBase.
+            </summary>
+        </member>
+        <member name="M:Sustainsys.Saml2.HttpModule.CommandResultHttpExtensions.Apply(Sustainsys.Saml2.WebSso.CommandResult,System.Web.HttpResponseBase,System.Boolean,System.String)">
+            <summary>
+            Apply the command result to a bare HttpResponse.
+            </summary>
+            <param name="commandResult">The CommandResult that will update the HttpResponse.</param>
+            <param name="response">Http Response to write the result to.</param>
+            <param name="emitSameSiteNone">Include a SameSite=None attribute on any cookies set</param>
+            <param name="modulePath">Path of Sustainsys.Saml2 instance - used for isolation of data protection</param>
+        </member>
+        <member name="M:Sustainsys.Saml2.HttpModule.CommandResultHttpExtensions.ApplyCookies(Sustainsys.Saml2.WebSso.CommandResult,System.Web.HttpResponseBase,System.Boolean,System.String)">
+            <summary>
+            Apply cookies of the CommandResult to the response.
+            </summary>
+            <param name="commandResult">Commandresult</param>
+            <param name="response">Response</param>
+            <param name="emitSameSiteNone">Include a SameSite=None attribute on any cookies set</param>
+            <param name="modulePath">Path of Sustainsys.Saml2 instance - used for isolation of data protection</param>
+        </member>
+        <member name="M:Sustainsys.Saml2.HttpModule.CommandResultHttpExtensions.ApplyHeaders(Sustainsys.Saml2.WebSso.CommandResult,System.Web.HttpResponseBase)">
+            <summary>
+            Apply headers of the command result to the response.
+            </summary>
+            <param name="commandResult">Command result containing headers.</param>
+            <param name="response">Response to set headers in.</param>
+        </member>
+        <member name="M:Sustainsys.Saml2.HttpModule.CommandResultHttpExtensions.SignInOrOutSessionAuthenticationModule(Sustainsys.Saml2.WebSso.CommandResult)">
+            <summary>
+            Establishes an application session by calling the session authentication module.
+            </summary>
+        </member>
+        <member name="T:Sustainsys.Saml2.HttpModule.HttpRequestBaseExtensions">
+            <summary>
+            Static class that hold extension methods for <see cref="T:System.Web.HttpRequestBase"/>.
+            </summary>
+        </member>
+        <member name="F:Sustainsys.Saml2.HttpModule.HttpRequestBaseExtensions.ProtectionPurpose">
+            <summary>
+            Purpose string used with data protection.
+            </summary>
+        </member>
+        <member name="M:Sustainsys.Saml2.HttpModule.HttpRequestBaseExtensions.ToHttpRequestData(System.Web.HttpRequestBase,System.String)">
+            <summary>
+            Extension method to convert a HttpRequestBase to a HttpRequestData.
+            </summary>
+            <param name="requestBase">The request object used to populate the <c>HttpRequestData</c>.</param>
+            <param name="modulePath">Path of Sustainsys.Saml2 instance - used for isolation of data protection</param>
+            <returns>The <c>HttpRequestData</c> object that has been populated by the request.</returns>
+        </member>
+        <member name="M:Sustainsys.Saml2.HttpModule.HttpRequestBaseExtensions.ToHttpRequestData(System.Web.HttpRequestBase,System.Boolean,System.String)">
+            <summary>
+            Extension method to convert a HttpRequestBase to a HttpRequestData.
+            </summary>
+            <param name="requestBase">The request object used to populate the <c>HttpRequestData</c>.</param>
+            <param name="ignoreCookies">Ignore cookies when extracting data.
+            This is useful for the stub idp that might see the relay state
+            and the requester's cookie, but shouldn't try to decrypt it.</param>
+            <param name="modulePath">Path of Sustainsys.Saml2 instance - used for isolation of data protection</param>
+            <returns>The <c>HttpRequestData</c> object that has been populated by the request.</returns>
+        </member>
+        <member name="T:Sustainsys.Saml2.HttpModule.Saml2AuthenticationModule">
+            <summary>
+            Http Module for SAML2 authentication. The module hijacks the 
+            ~/Saml2AuthenticationModule/ path of the http application to provide 
+            authentication services.
+            </summary>
+        </member>
+        <member name="P:Sustainsys.Saml2.HttpModule.Saml2AuthenticationModule.Options">
+            <summary>
+            The one and only options instance used by the
+            <see cref="T:Sustainsys.Saml2.HttpModule.Saml2AuthenticationModule"/>. It is instantiated by
+            loading the web.config, but after that it can be modified or even
+            replaced from code.
+            </summary>
+        </member>
+        <member name="M:Sustainsys.Saml2.HttpModule.Saml2AuthenticationModule.Init(System.Web.HttpApplication)">
+            <summary>
+            Init the module and subscribe to events.
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:Sustainsys.Saml2.HttpModule.Saml2AuthenticationModule.OnAuthenticateRequest(System.Object,System.EventArgs)">
+            <summary>
+            Begin request handler that captures all traffic to configured module
+            path.
+            </summary>
+            <param name="sender">The http application.</param>
+            <param name="e">Ignored</param>
+        </member>
+        <member name="M:Sustainsys.Saml2.HttpModule.Saml2AuthenticationModule.Dispose">
+            <summary>
+            IDisposable implementation.
+            </summary>
+        </member>
+    </members>
+</doc>
