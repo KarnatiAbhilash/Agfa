@@ -728,6 +728,7 @@ namespace BusinessClass
             {
                 sdaDealer.SelectCommand.CommandType = CommandType.StoredProcedure;               
                 sdaDealer.SelectCommand.Parameters.Add("@UserId", SqlDbType.VarChar).Value = strUserId;
+                sdaDealer.SelectCommand.Parameters.Add("@Region", SqlDbType.VarChar).Value = strRegion;
                 dsDealer.Clear();
                 sdaDealer.Fill(dsDealer);
             }
