@@ -3,20 +3,19 @@
   "WorkspaceRootPath": "C:\\Users\\ADMIN\\source\\repos\\Agfa\\SecondarySales\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{12013387-2FEA-449A-BF89-49DE223B31EE}|C:\\Users\\ADMIN\\source\\repos\\Agfa\\SecondarySales|C:\\Users\\ADMIN\\source\\repos\\Agfa\\SecondarySales\\masters\\customermasteraddedit.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12013387-2FEA-449A-BF89-49DE223B31EE}|C:\\Users\\ADMIN\\source\\repos\\Agfa\\SecondarySales|solutionrelative:masters\\customermasteraddedit.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C27AD88F-6FED-41CA-B5BB-E8CC690B82F1}|..\\BusinessLayer\\BusinessClass\\BusinessClass.csproj|c:\\users\\admin\\source\\repos\\agfa\\businesslayer\\businessclass\\customermasterclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{12013387-2FEA-449A-BF89-49DE223B31EE}|C:\\Users\\ADMIN\\source\\repos\\Agfa\\SecondarySales|C:\\Users\\ADMIN\\source\\repos\\Agfa\\SecondarySales\\masters\\approvercustitemprice.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{12013387-2FEA-449A-BF89-49DE223B31EE}|C:\\Users\\ADMIN\\source\\repos\\Agfa\\SecondarySales|solutionrelative:masters\\approvercustitemprice.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12013387-2FEA-449A-BF89-49DE223B31EE}|C:\\Users\\ADMIN\\source\\repos\\Agfa\\SecondarySales|C:\\Users\\ADMIN\\source\\repos\\Agfa\\SecondarySales\\transactions\\issue.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12013387-2FEA-449A-BF89-49DE223B31EE}|C:\\Users\\ADMIN\\source\\repos\\Agfa\\SecondarySales|solutionrelative:transactions\\issue.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{12013387-2FEA-449A-BF89-49DE223B31EE}|C:\\Users\\ADMIN\\source\\repos\\Agfa\\SecondarySales|C:\\Users\\ADMIN\\source\\repos\\Agfa\\SecondarySales\\masters\\customermasteraddedit.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12013387-2FEA-449A-BF89-49DE223B31EE}|C:\\Users\\ADMIN\\source\\repos\\Agfa\\SecondarySales|solutionrelative:masters\\customermasteraddedit.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12013387-2FEA-449A-BF89-49DE223B31EE}|C:\\Users\\ADMIN\\source\\repos\\Agfa\\SecondarySales|c:\\users\\admin\\source\\repos\\agfa\\secondarysales\\masters\\approvercustitemprice.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{12013387-2FEA-449A-BF89-49DE223B31EE}|C:\\Users\\ADMIN\\source\\repos\\Agfa\\SecondarySales|solutionrelative:masters\\approvercustitemprice.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{12013387-2FEA-449A-BF89-49DE223B31EE}|C:\\Users\\ADMIN\\source\\repos\\Agfa\\SecondarySales|C:\\Users\\ADMIN\\source\\repos\\Agfa\\SecondarySales\\transactions\\issue.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12013387-2FEA-449A-BF89-49DE223B31EE}|C:\\Users\\ADMIN\\source\\repos\\Agfa\\SecondarySales|solutionrelative:transactions\\issue.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{12013387-2FEA-449A-BF89-49DE223B31EE}|C:\\Users\\ADMIN\\source\\repos\\Agfa\\SecondarySales|C:\\Users\\ADMIN\\source\\repos\\Agfa\\SecondarySales\\transactions\\issue.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
@@ -58,7 +57,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,15 +69,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ApproverCustItemPrice.aspx",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Agfa\\SecondarySales\\Masters\\ApproverCustItemPrice.aspx",
-              "RelativeDocumentMoniker": "Masters\\ApproverCustItemPrice.aspx",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Agfa\\SecondarySales\\Masters\\ApproverCustItemPrice.aspx",
-              "RelativeToolTip": "Masters\\ApproverCustItemPrice.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-07-23T08:43:48.138Z",
+              "DocumentIndex": 0,
+              "Title": "CustomerMasterClass.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Agfa\\BusinessLayer\\BusinessClass\\CustomerMasterClass.cs",
+              "RelativeDocumentMoniker": "..\\BusinessLayer\\BusinessClass\\CustomerMasterClass.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Agfa\\BusinessLayer\\BusinessClass\\CustomerMasterClass.cs",
+              "RelativeToolTip": "..\\BusinessLayer\\BusinessClass\\CustomerMasterClass.cs",
+              "ViewState": "AQIAAIMCAAAAAAAAAAAAAIkCAABmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T12:26:17.325Z",
               "EditorCaption": ""
             },
             {
@@ -89,7 +88,7 @@
               "RelativeDocumentMoniker": "Masters\\ApproverCustItemPrice.aspx.cs",
               "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Agfa\\SecondarySales\\Masters\\ApproverCustItemPrice.aspx.cs",
               "RelativeToolTip": "Masters\\ApproverCustItemPrice.aspx.cs",
-              "ViewState": "AQIAAEAAAAAAAAAAAAAAAEMAAAAIAAAA",
+              "ViewState": "AQIAADoAAAAAAAAAAAAqwEkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-23T08:43:49.48Z",
               "EditorCaption": ""
@@ -122,13 +121,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "CustomerMasterAddEdit.aspx.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Agfa\\SecondarySales\\Masters\\CustomerMasterAddEdit.aspx.cs",
               "RelativeDocumentMoniker": "Masters\\CustomerMasterAddEdit.aspx.cs",
               "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\Agfa\\SecondarySales\\Masters\\CustomerMasterAddEdit.aspx.cs",
               "RelativeToolTip": "Masters\\CustomerMasterAddEdit.aspx.cs",
-              "ViewState": "AQIAAIcAAAAAAAAAAAAmwJMAAAAQAAAA",
+              "ViewState": "AQIAAIMAAAAAAAAAAAAmwJYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-23T07:42:21.426Z",
               "EditorCaption": ""
@@ -148,7 +147,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Issue.aspx.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\Agfa\\SecondarySales\\Transactions\\Issue.aspx.cs",
               "RelativeDocumentMoniker": "Transactions\\Issue.aspx.cs",
