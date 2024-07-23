@@ -93,7 +93,7 @@ public partial class Transactions_Issue : System.Web.UI.Page
             listItemList.Add(new ListItem(Path.GetFileName(path), path));
             this.gvIssue.DataSource = (object)listItemList;
             objIssue.prpDealerCode = Convert.ToInt32(Session["DealerCode"].ToString());
-            //this.objIssue.prpRegion = this.ddlRegion.SelectedItem.Value;
+            this.objIssue.prpRegion = this.ddlRegion.SelectedItem.Value;
             if (!string.IsNullOrEmpty(this.hdnCustcode.Value))
                 this.objIssue.prpCustCode = Convert.ToInt32(this.hdnCustcode.Value.Trim());
             if (Session["UserType"].ToString() == "Approver")
