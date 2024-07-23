@@ -74,3 +74,39 @@ D:\Downloads\Agfa\Main_Source\Main_Source\Agfa.Common\bin\Debug\Microsoft.Identi
 D:\Downloads\Agfa\Main_Source\Main_Source\Agfa.Common\bin\Debug\Newtonsoft.Json.xml
 D:\Downloads\Agfa\Main_Source\Main_Source\Agfa.Common\bin\Debug\Sustainsys.Saml2.xml
 D:\Downloads\Agfa\Main_Source\Main_Source\Agfa.Common\bin\Debug\Sustainsys.Saml2.HttpModule.xml
+D:\Work Area\Agfa\Agfa.Common\bin\Debug\Agfa.Common.dll.config
+D:\Work Area\Agfa\Agfa.Common\bin\Debug\Agfa.Common.dll
+D:\Work Area\Agfa\Agfa.Common\bin\Debug\Agfa.Common.pdb
+D:\Work Area\Agfa\Agfa.Common\bin\Debug\itextsharp.dll
+D:\Work Area\Agfa\Agfa.Common\bin\Debug\itextsharp.xtra.dll
+D:\Work Area\Agfa\Agfa.Common\bin\Debug\Microsoft.IdentityModel.Logging.dll
+D:\Work Area\Agfa\Agfa.Common\bin\Debug\Microsoft.IdentityModel.Protocols.dll
+D:\Work Area\Agfa\Agfa.Common\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+D:\Work Area\Agfa\Agfa.Common\bin\Debug\Microsoft.IdentityModel.Tokens.Saml.dll
+D:\Work Area\Agfa\Agfa.Common\bin\Debug\Microsoft.IdentityModel.Xml.dll
+D:\Work Area\Agfa\Agfa.Common\bin\Debug\Newtonsoft.Json.dll
+D:\Work Area\Agfa\Agfa.Common\bin\Debug\Sustainsys.Saml2.dll
+D:\Work Area\Agfa\Agfa.Common\bin\Debug\Sustainsys.Saml2.HttpModule.dll
+D:\Work Area\Agfa\Agfa.Common\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\Work Area\Agfa\Agfa.Common\bin\Debug\System.Security.AccessControl.dll
+D:\Work Area\Agfa\Agfa.Common\bin\Debug\System.Security.Cryptography.Xml.dll
+D:\Work Area\Agfa\Agfa.Common\bin\Debug\System.Security.Permissions.dll
+D:\Work Area\Agfa\Agfa.Common\bin\Debug\System.Security.Principal.Windows.dll
+D:\Work Area\Agfa\Agfa.Common\bin\Debug\Microsoft.IdentityModel.Logging.pdb
+D:\Work Area\Agfa\Agfa.Common\bin\Debug\Microsoft.IdentityModel.Logging.xml
+D:\Work Area\Agfa\Agfa.Common\bin\Debug\Microsoft.IdentityModel.Protocols.pdb
+D:\Work Area\Agfa\Agfa.Common\bin\Debug\Microsoft.IdentityModel.Protocols.xml
+D:\Work Area\Agfa\Agfa.Common\bin\Debug\Microsoft.IdentityModel.Tokens.pdb
+D:\Work Area\Agfa\Agfa.Common\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+D:\Work Area\Agfa\Agfa.Common\bin\Debug\Microsoft.IdentityModel.Tokens.Saml.pdb
+D:\Work Area\Agfa\Agfa.Common\bin\Debug\Microsoft.IdentityModel.Tokens.Saml.xml
+D:\Work Area\Agfa\Agfa.Common\bin\Debug\Microsoft.IdentityModel.Xml.pdb
+D:\Work Area\Agfa\Agfa.Common\bin\Debug\Microsoft.IdentityModel.Xml.xml
+D:\Work Area\Agfa\Agfa.Common\bin\Debug\Newtonsoft.Json.xml
+D:\Work Area\Agfa\Agfa.Common\bin\Debug\Sustainsys.Saml2.xml
+D:\Work Area\Agfa\Agfa.Common\bin\Debug\Sustainsys.Saml2.HttpModule.xml
+D:\Work Area\Agfa\Agfa.Common\obj\Debug\Agfa.Common.csproj.AssemblyReference.cache
+D:\Work Area\Agfa\Agfa.Common\obj\Debug\Agfa.Common.csproj.CoreCompileInputs.cache
+D:\Work Area\Agfa\Agfa.Common\obj\Debug\Agfa.Common.csproj.CopyComplete
+D:\Work Area\Agfa\Agfa.Common\obj\Debug\Agfa.Common.dll
+D:\Work Area\Agfa\Agfa.Common\obj\Debug\Agfa.Common.pdb

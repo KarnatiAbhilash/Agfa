@@ -65,6 +65,7 @@ public partial class Masters_ApproverCustItemPrice : System.Web.UI.Page
         AddHeader();
         this.objCust.prpRegion = this.ddlRegion.SelectedItem.Value;
         objCust.prpUserId = Convert.ToString(Session["UserID"]);
+        objCust.prpRegion = this.ddlRegion.SelectedItem.Value;
         dsItem = objCust.FetchApproverPendingCustItemList();
         for (int bindparse = 0; bindparse < dsItem.Tables[0].Rows.Count; bindparse++)
             CreateRow(bindparse + 1);

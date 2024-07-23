@@ -103,7 +103,7 @@ public partial class Masters_CustomerMasterAddEdit : System.Web.UI.Page
                 trReg.Disabled = true;
                 trReg.Style.Add("display", "table-row");
                 txtDemoStartDate.Text = ds.Tables[0].Rows[0]["DemoStartDate"].ToString().Trim();
-                // txtDemoStartDate.Text = Convert.ToDateTime(ds.Tables[0].Rows[0]["DemoStartDate"].ToString()).ToString(Session["DateFormat"].ToString());
+                //txtDemoStartDate.Text = Convert.ToDateTime(ds.Tables[0].Rows[0]["DemoStartDate"].ToString()).ToString(Session["DateFormat"].ToString());
                 txtCmtSqm.Text = ds.Tables[0].Rows[0]["CommitmentinSqmPM"].ToString().Trim();
             }
             //txtDemoStartDate.Text = ds.Tables[0].Rows[0]["DemoStartDate"].ToString().Trim();
@@ -148,13 +148,12 @@ public partial class Masters_CustomerMasterAddEdit : System.Web.UI.Page
                 objCust.prpDirectCust = drtCust.Checked;
                 objCust.prpSalesEmpName = txtSalesEmp.Text.Trim();
                 objCust.prpMou = chkIsSpecialMOU.Checked;
-                objCust.prpDMSCode = txtDmsCode.Text.Trim();
-                if (chkIsSpecialMOU.Checked)
+                objCust.prpDMSCode = txtDmsCode.Text.Trim();               
+                if(chkIsSpecialMOU.Checked)
                 {
-                    objCust.prpDemoStartDate = Convert.ToDateTime(txtDemoStartDate.Text);
-                    objCust.prpComtSqm = Convert.ToDecimal(txtCmtSqm.Text);
+                    objCust.prpDemoStartDate = Convert.ToDateTime(txtDemoStartDate.Text.ToString());
+                    objCust.prpComtSqm = Convert.ToDecimal(txtCmtSqm.Text.Trim());
                 }
-                
                 string strResult = objCust.SaveCustMaster();
                 if (strResult == "")
                     Response.Redirect("CustomerMaster.aspx?stat=" + stat, false);

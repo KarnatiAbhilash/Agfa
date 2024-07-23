@@ -51,20 +51,17 @@
             </tr>
         </table>
         <br />
-         <table class="HeaderDetailsGrid" width="95%" border="0" cellspacing="0">
-                       <td align="right" >
-                            Region:
-      <asp:DropDownList ID="ddlRegion" runat="server" CssClass="commonfont textdropwidth"> </asp:DropDownList>
-     </td>
-    <td align="left">
-          <asp:Button CssClass="buttonsearch" ID="btnSearch"
-      runat="server" Text="Search" OnClick="search_click" ></asp:Button>
-        <asp:Button CssClass="buttonclearsearch" ID="btnClear" runat="server" Text="Clear Search" OnClick="btnClear_Click"
-  ></asp:Button>
-    </td>
-   
-      </table>
-
+              <table class="HeaderDetailsGrid" width="95%" border="0" cellspacing="0">
+                <td align="right" >               
+                                  Region:<asp:DropDownList ID="ddlRegion" runat="server" CssClass="commonfont textdropwidth"> </asp:DropDownList>
+                </td>
+                <td align="left">
+                        <asp:Button CssClass="buttonsearch" ID="btnSearch"
+                            runat="server" Text="Search" OnClick="search_click" ></asp:Button>
+                        <asp:Button CssClass="buttonclearsearch" ID="btnClear" runat="server" Text="Clear Search" OnClick="btnClear_Click"
+                        ></asp:Button>
+                </td>
+                  </table>
 
              <asp:UpdatePanel ID="upReceipt" runat="server">
             <ContentTemplate>
