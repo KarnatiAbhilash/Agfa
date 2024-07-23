@@ -149,7 +149,12 @@ public partial class Masters_CustomerMasterAddEdit : System.Web.UI.Page
                 objCust.prpSalesEmpName = txtSalesEmp.Text.Trim();
                 objCust.prpMou = chkIsSpecialMOU.Checked;
                 objCust.prpDMSCode = txtDmsCode.Text.Trim();
-                objCust.prpDemoStartDate = Convert.ToDateTime(txtDemoStartDate.Text);
+                if (chkIsSpecialMOU.Checked)
+                {
+                    objCust.prpDemoStartDate = Convert.ToDateTime(txtDemoStartDate.Text);
+                    objCust.prpComtSqm = Convert.ToDecimal(txtCmtSqm.Text);
+                }
+                
                 string strResult = objCust.SaveCustMaster();
                 if (strResult == "")
                     Response.Redirect("CustomerMaster.aspx?stat=" + stat, false);

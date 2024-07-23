@@ -533,7 +533,7 @@
                         </tr>
                     </table>
                                        
-                          <asp:Panel ID="PnlHeader" Width="95%" runat="server" Height="10%" ScrollBars="Horizontal"
+                          <asp:Panel ID="PnlHeader" Width="95%" runat="server"  ScrollBars="Horizontal"
                         Style="overflow: auto;">
                         <asp:PlaceHolder ID="phItem" runat="server">
                             <asp:Table runat="server" CssClass="alternatecolorborder" CellPadding="5" CellSpacing="0"
