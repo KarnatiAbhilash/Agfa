@@ -69,3 +69,12 @@ D:\Downloads\Agfa\Main_Source\Main_Source\BusinessLayer\BusinessClass\obj\Debug\
 D:\Downloads\Agfa\Main_Source\Main_Source\BusinessLayer\BusinessClass\obj\Debug\BusinessClass.csproj.CopyComplete
 D:\Downloads\Agfa\Main_Source\Main_Source\BusinessLayer\BusinessClass\obj\Debug\BusinessClass.dll
 D:\Downloads\Agfa\Main_Source\Main_Source\BusinessLayer\BusinessClass\obj\Debug\BusinessClass.pdb
+C:\Users\ADMIN\source\repos\Agfa\BusinessLayer\BusinessClass\bin\Debug\BusinessClass.dll
+C:\Users\ADMIN\source\repos\Agfa\BusinessLayer\BusinessClass\bin\Debug\BusinessClass.pdb
+C:\Users\ADMIN\source\repos\Agfa\BusinessLayer\BusinessClass\bin\Debug\Common.dll
+C:\Users\ADMIN\source\repos\Agfa\BusinessLayer\BusinessClass\bin\Debug\Common.pdb
+C:\Users\ADMIN\source\repos\Agfa\BusinessLayer\BusinessClass\obj\Debug\BusinessClass.csproj.AssemblyReference.cache
+C:\Users\ADMIN\source\repos\Agfa\BusinessLayer\BusinessClass\obj\Debug\BusinessClass.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\source\repos\Agfa\BusinessLayer\BusinessClass\obj\Debug\Business.BBB71602.Up2Date
+C:\Users\ADMIN\source\repos\Agfa\BusinessLayer\BusinessClass\obj\Debug\BusinessClass.dll
+C:\Users\ADMIN\source\repos\Agfa\BusinessLayer\BusinessClass\obj\Debug\BusinessClass.pdb
