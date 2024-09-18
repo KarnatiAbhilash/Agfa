@@ -21,3 +21,9 @@ C:\Users\bhumika.s\Desktop\Main_Source\BusinessLayer\Common\obj\Release\Common.c
 C:\Users\bhumika.s\Desktop\Main_Source\BusinessLayer\Common\obj\Release\Common.csproj.CoreCompileInputs.cache
 C:\Users\bhumika.s\Desktop\Main_Source\BusinessLayer\Common\obj\Release\Common.dll
 C:\Users\bhumika.s\Desktop\Main_Source\BusinessLayer\Common\obj\Release\Common.pdb
+D:\Work Area\Agfa\BusinessLayer\Common\bin\Release\Common.dll
+D:\Work Area\Agfa\BusinessLayer\Common\bin\Release\Common.pdb
+D:\Work Area\Agfa\BusinessLayer\Common\obj\Release\Common.csproj.AssemblyReference.cache
+D:\Work Area\Agfa\BusinessLayer\Common\obj\Release\Common.csproj.CoreCompileInputs.cache
+D:\Work Area\Agfa\BusinessLayer\Common\obj\Release\Common.dll
+D:\Work Area\Agfa\BusinessLayer\Common\obj\Release\Common.pdb

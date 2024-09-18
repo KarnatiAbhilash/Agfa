@@ -10,6 +10,7 @@ using AjaxControlToolkit;
 using System.Data;
 using System;
 using System.Collections.Generic;
+using System.Activities.Expressions;
 
 public partial class Masters_ApproverCustItemPrice : System.Web.UI.Page
 {
@@ -24,12 +25,13 @@ public partial class Masters_ApproverCustItemPrice : System.Web.UI.Page
         {
             if (!IsPostBack)
             {
+                CommonFunction.PopulateRecordsWithTwoParam("Common_Values", "Text", "Value", "FieldName", "Region", "Status", "1", "Text", this.ddlRegion, "ALL");
                 lblMessage.Text = "";
                 lblMessage.CssClass = "";
                 hdnCurrentDate.Value = DateTime.Now.ToString(Session["DateFormat"].ToString());
                 hdnDateFormat.Value = Session["DateFormat"].ToString();
                 hdnDateFormat.Value = hdnDateFormat.Value.ToUpper();
-
+               
 
                 if (Request.QueryString["Type"] != null && Request.QueryString["Type"].ToString() != "")
                 {
@@ -61,8 +63,9 @@ public partial class Masters_ApproverCustItemPrice : System.Web.UI.Page
         Table tbl = Page.FindControl("SearchTable") as Table;
         tbl.Controls.Clear();
         AddHeader();
-     
+        this.objCust.prpRegion = this.ddlRegion.SelectedItem.Value;
         objCust.prpUserId = Convert.ToString(Session["UserID"]);
+        objCust.prpRegion = this.ddlRegion.SelectedItem.Value;
         dsItem = objCust.FetchApproverPendingCustItemList();
         for (int bindparse = 0; bindparse < dsItem.Tables[0].Rows.Count; bindparse++)
             CreateRow(bindparse + 1);
@@ -530,5 +533,17 @@ public partial class Masters_ApproverCustItemPrice : System.Web.UI.Page
             lblMessage.Text = ex.Message;
             lblMessage.CssClass = "ErrorMessage";
         }
+    }
+    protected void btnClear_Click(object sender, EventArgs e)
+    {
+        this.lblMessage.Text = "";
+        this.lblMessage.CssClass = "";
+        this.ddlRegion.SelectedIndex = 0;
+        this.BindData();
+
+    }
+    protected void search_click(object sender, EventArgs e)
+    {
+        BindData();
     }
 }

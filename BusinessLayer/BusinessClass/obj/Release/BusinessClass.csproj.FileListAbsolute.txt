@@ -41,3 +41,12 @@ D:\Downloads\Agfa\Main_Source\Main_Source\BusinessLayer\BusinessClass\obj\Releas
 D:\Downloads\Agfa\Main_Source\Main_Source\BusinessLayer\BusinessClass\obj\Release\BusinessClass.csproj.CopyComplete
 D:\Downloads\Agfa\Main_Source\Main_Source\BusinessLayer\BusinessClass\obj\Release\BusinessClass.dll
 D:\Downloads\Agfa\Main_Source\Main_Source\BusinessLayer\BusinessClass\obj\Release\BusinessClass.pdb
+D:\Work Area\Agfa\BusinessLayer\BusinessClass\bin\Release\BusinessClass.dll
+D:\Work Area\Agfa\BusinessLayer\BusinessClass\bin\Release\BusinessClass.pdb
+D:\Work Area\Agfa\BusinessLayer\BusinessClass\bin\Release\Common.dll
+D:\Work Area\Agfa\BusinessLayer\BusinessClass\bin\Release\Common.pdb
+D:\Work Area\Agfa\BusinessLayer\BusinessClass\obj\Release\BusinessClass.csproj.AssemblyReference.cache
+D:\Work Area\Agfa\BusinessLayer\BusinessClass\obj\Release\BusinessClass.csproj.CoreCompileInputs.cache
+D:\Work Area\Agfa\BusinessLayer\BusinessClass\obj\Release\BusinessClass.csproj.CopyComplete
+D:\Work Area\Agfa\BusinessLayer\BusinessClass\obj\Release\BusinessClass.dll
+D:\Work Area\Agfa\BusinessLayer\BusinessClass\obj\Release\BusinessClass.pdb

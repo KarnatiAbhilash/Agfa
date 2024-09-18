@@ -11,7 +11,7 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Controls", "..\BusinessLaye
 EndProject
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "SecondarySales", ".", "{12013387-2FEA-449A-BF89-49DE223B31EE}"
 	ProjectSection(WebsiteProperties) = preProject
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8.1"
 		ProjectReferences = "{dd4ea4f4-0ccc-4da9-acad-23ee9a41313e}|Agfa.Common.dll;{c27ad88f-6fed-41ca-b5bb-e8cc690b82f1}|BusinessClass.dll;{2C872D16-D782-45CD-B699-DEE97D9A72D1}|Common.dll;"
 		Debug.AspNetCompiler.VirtualPath = "/SecondarySales"
 		Debug.AspNetCompiler.PhysicalPath = "..\SecondarySales\"

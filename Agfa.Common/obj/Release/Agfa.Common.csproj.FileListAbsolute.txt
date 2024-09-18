@@ -28,3 +28,35 @@ C:\Users\bhumika.s\Desktop\Main_Source\Agfa.Common\obj\Release\Agfa.Common.cspro
 C:\Users\bhumika.s\Desktop\Main_Source\Agfa.Common\obj\Release\Agfa.Com.66B706A9.Up2Date
 C:\Users\bhumika.s\Desktop\Main_Source\Agfa.Common\obj\Release\Agfa.Common.dll
 C:\Users\bhumika.s\Desktop\Main_Source\Agfa.Common\obj\Release\Agfa.Common.pdb
+D:\Work Area\Agfa\Agfa.Common\bin\Release\Agfa.Common.dll.config
+D:\Work Area\Agfa\Agfa.Common\bin\Release\Agfa.Common.dll
+D:\Work Area\Agfa\Agfa.Common\bin\Release\Agfa.Common.pdb
+D:\Work Area\Agfa\Agfa.Common\bin\Release\itextsharp.dll
+D:\Work Area\Agfa\Agfa.Common\bin\Release\itextsharp.xtra.dll
+D:\Work Area\Agfa\Agfa.Common\bin\Release\Microsoft.IdentityModel.Logging.dll
+D:\Work Area\Agfa\Agfa.Common\bin\Release\Microsoft.IdentityModel.Protocols.dll
+D:\Work Area\Agfa\Agfa.Common\bin\Release\Microsoft.IdentityModel.Tokens.dll
+D:\Work Area\Agfa\Agfa.Common\bin\Release\Microsoft.IdentityModel.Tokens.Saml.dll
+D:\Work Area\Agfa\Agfa.Common\bin\Release\Microsoft.IdentityModel.Xml.dll
+D:\Work Area\Agfa\Agfa.Common\bin\Release\Newtonsoft.Json.dll
+D:\Work Area\Agfa\Agfa.Common\bin\Release\System.Configuration.ConfigurationManager.dll
+D:\Work Area\Agfa\Agfa.Common\bin\Release\System.Security.AccessControl.dll
+D:\Work Area\Agfa\Agfa.Common\bin\Release\System.Security.Cryptography.Xml.dll
+D:\Work Area\Agfa\Agfa.Common\bin\Release\System.Security.Permissions.dll
+D:\Work Area\Agfa\Agfa.Common\bin\Release\System.Security.Principal.Windows.dll
+D:\Work Area\Agfa\Agfa.Common\bin\Release\Microsoft.IdentityModel.Logging.pdb
+D:\Work Area\Agfa\Agfa.Common\bin\Release\Microsoft.IdentityModel.Logging.xml
+D:\Work Area\Agfa\Agfa.Common\bin\Release\Microsoft.IdentityModel.Protocols.pdb
+D:\Work Area\Agfa\Agfa.Common\bin\Release\Microsoft.IdentityModel.Protocols.xml
+D:\Work Area\Agfa\Agfa.Common\bin\Release\Microsoft.IdentityModel.Tokens.pdb
+D:\Work Area\Agfa\Agfa.Common\bin\Release\Microsoft.IdentityModel.Tokens.xml
+D:\Work Area\Agfa\Agfa.Common\bin\Release\Microsoft.IdentityModel.Tokens.Saml.pdb
+D:\Work Area\Agfa\Agfa.Common\bin\Release\Microsoft.IdentityModel.Tokens.Saml.xml
+D:\Work Area\Agfa\Agfa.Common\bin\Release\Microsoft.IdentityModel.Xml.pdb
+D:\Work Area\Agfa\Agfa.Common\bin\Release\Microsoft.IdentityModel.Xml.xml
+D:\Work Area\Agfa\Agfa.Common\bin\Release\Newtonsoft.Json.xml
+D:\Work Area\Agfa\Agfa.Common\obj\Release\Agfa.Common.csproj.AssemblyReference.cache
+D:\Work Area\Agfa\Agfa.Common\obj\Release\Agfa.Common.csproj.CoreCompileInputs.cache
+D:\Work Area\Agfa\Agfa.Common\obj\Release\Agfa.Common.csproj.CopyComplete
+D:\Work Area\Agfa\Agfa.Common\obj\Release\Agfa.Common.dll
+D:\Work Area\Agfa\Agfa.Common\obj\Release\Agfa.Common.pdb

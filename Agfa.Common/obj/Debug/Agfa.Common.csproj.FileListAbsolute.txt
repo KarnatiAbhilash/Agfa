@@ -85,8 +85,6 @@ D:\Work Area\Agfa\Agfa.Common\bin\Debug\Microsoft.IdentityModel.Tokens.dll
 D:\Work Area\Agfa\Agfa.Common\bin\Debug\Microsoft.IdentityModel.Tokens.Saml.dll
 D:\Work Area\Agfa\Agfa.Common\bin\Debug\Microsoft.IdentityModel.Xml.dll
 D:\Work Area\Agfa\Agfa.Common\bin\Debug\Newtonsoft.Json.dll
-D:\Work Area\Agfa\Agfa.Common\bin\Debug\Sustainsys.Saml2.dll
-D:\Work Area\Agfa\Agfa.Common\bin\Debug\Sustainsys.Saml2.HttpModule.dll
 D:\Work Area\Agfa\Agfa.Common\bin\Debug\System.Configuration.ConfigurationManager.dll
 D:\Work Area\Agfa\Agfa.Common\bin\Debug\System.Security.AccessControl.dll
 D:\Work Area\Agfa\Agfa.Common\bin\Debug\System.Security.Cryptography.Xml.dll
@@ -103,8 +101,6 @@ D:\Work Area\Agfa\Agfa.Common\bin\Debug\Microsoft.IdentityModel.Tokens.Saml.xml
 D:\Work Area\Agfa\Agfa.Common\bin\Debug\Microsoft.IdentityModel.Xml.pdb
 D:\Work Area\Agfa\Agfa.Common\bin\Debug\Microsoft.IdentityModel.Xml.xml
 D:\Work Area\Agfa\Agfa.Common\bin\Debug\Newtonsoft.Json.xml
-D:\Work Area\Agfa\Agfa.Common\bin\Debug\Sustainsys.Saml2.xml
-D:\Work Area\Agfa\Agfa.Common\bin\Debug\Sustainsys.Saml2.HttpModule.xml
 D:\Work Area\Agfa\Agfa.Common\obj\Debug\Agfa.Common.csproj.AssemblyReference.cache
 D:\Work Area\Agfa\Agfa.Common\obj\Debug\Agfa.Common.csproj.CoreCompileInputs.cache
 D:\Work Area\Agfa\Agfa.Common\obj\Debug\Agfa.Common.csproj.CopyComplete
